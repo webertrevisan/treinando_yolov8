@@ -1,6 +1,10 @@
 task: segment
 mode: train
+<<<<<<< HEAD
+model: yolov8s-seg.pt
+=======
 model: yolov8n-seg.pt
+>>>>>>> f016548c43f5f7a10e9e0224789cd557d5667b4b
 data: among.yaml
 epochs: 100
 time: null
@@ -13,7 +17,11 @@ cache: false
 device: 0
 workers: 8
 project: null
+<<<<<<< HEAD
+name: train
+=======
 name: train6
+>>>>>>> f016548c43f5f7a10e9e0224789cd557d5667b4b
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +110,8 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
+<<<<<<< HEAD
+save_dir: runs\segment\train
+=======
 save_dir: runs\segment\train6
+>>>>>>> f016548c43f5f7a10e9e0224789cd557d5667b4b

@@ -21,12 +21,21 @@ wincap = WindowCapture(size=(800, 600), origin=(offset_x, offset_y))
 
 #model = YOLO("yolov8n.pt")
 
+<<<<<<< HEAD:detectar_capturando_tela.py
+# Usa modelo treinado com Among
+model = YOLO("runs/segment/train/weights/best.pt")
+
+track_history = defaultdict(lambda: [])
+seguir = False
+deixar_rastro = True
+=======
 # Usa modelo treinado com tooth
 model = YOLO("runs/segment/train8/weights/best.pt")
 
 track_history = defaultdict(lambda: [])
 seguir = True
 deixar_rastro = False
+>>>>>>> f016548c43f5f7a10e9e0224789cd557d5667b4b:detect_with_screenshot.py
 
 while True:
     img = wincap.get_screenshot()

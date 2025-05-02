@@ -10,14 +10,35 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ./  # dataset root dir
-train: teeth/train  # train images (relative to 'path') 128 images
-val: teeth/train # val images (relative to 'path') 128 images
-#test: ESCALIBUR/train # test images (optional)
+train: ESCALIBUR/train  # train images (relative to 'path') 128 images
+val: ESCALIBUR/train # val images (relative to 'path') 128 images
+test: ESCALIBUR/train # test images (optional)
 
 # Classes
 names:
   0: 11
   1: 12
   2: 13
+  3: 14
+  4: 15
+  5: 21
+  6: 22
+  7: 23
+  8: 24
+  9: 25
+  10: 31
+  11: 32
+  12: 33
+  13: 34
+  14: 35
+  15: 36
+  16: 41
+  17: 42
+  18: 43
+  19: 44
+  20: 45
+  21: 46
+  22: botom teeth
+  23: top teeth
 
   # "c:\users\bobgreen\documents\pythonscripts\python_envs\yolov5env\scripts\python.exe"  "C:\Users\BobGreen\Documents\PythonScripts\python_envs\yolov5env\Scripts\tensorboard.exe" --logdir runs\train_among

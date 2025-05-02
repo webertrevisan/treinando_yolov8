@@ -19,8 +19,13 @@ cap = cv2.VideoCapture(0)
 # YOLOv8l	640	    52.9	375.2	    2.39	    43.7	165.2
 # YOLOv8x	640	    53.9	479.1	    3.53	    68.2	257.8
 
-model = YOLO("runs/segment/train8/weights/best.pt")
+<<<<<<< HEAD:detectar_usando_webcam.py
+#model = YOLO("yolov8n.pt")
+model = YOLO("runs/segment/train/weights/best.pt")
+=======
+model = YOLO("runs/segment/train/weights/best.pt")
 #model = YOLO("yolov8s-seg.pt")
+>>>>>>> f016548c43f5f7a10e9e0224789cd557d5667b4b:detect_with_webcam.py
 
 track_history = defaultdict(lambda: [])
 seguir = True
