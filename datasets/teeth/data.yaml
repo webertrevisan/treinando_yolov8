@@ -1,0 +1,12 @@
+path: ./  # dataset root dir
+train: tooth/train  # train images (relative to 'path') 128 images
+val: tooth/train  # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+
+# Classes
+names:
+  0: botom teech
+  1: tooth
+  2: top teech
+  
+# names: ['botom teech', 'tooth', 'top teech']

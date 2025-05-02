@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['11', '12', '13', '14', '15', '21', '22', '23', '24', '25', '31', '32', '33', '34', '35', '36', '41', '42', '43', '44', '45', '46', 'botom teeth', 'top teeth']
+
+roboflow:
+  workspace: weber-cy2ec
+  project: escalibur
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weber-cy2ec/escalibur/dataset/1

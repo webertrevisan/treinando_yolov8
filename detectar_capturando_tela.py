@@ -19,13 +19,13 @@ wincap = WindowCapture(size=(800, 600), origin=(offset_x, offset_y))
 # YOLOv8l	640	    52.9	375.2	    2.39	    43.7	165.2
 # YOLOv8x	640	    53.9	479.1	    3.53	    68.2	257.8
 
-model = YOLO("yolov8n.pt")
+#model = YOLO("yolov8n.pt")
 
 # Usa modelo treinado com Among
-#model = YOLO("runs/detect/train4/weights/best.pt")
+model = YOLO("runs/segment/train/weights/best.pt")
 
 track_history = defaultdict(lambda: [])
-seguir = True
+seguir = False
 deixar_rastro = True
 
 while True:
