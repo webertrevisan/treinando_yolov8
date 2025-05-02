@@ -19,7 +19,7 @@ cap = cv2.VideoCapture(0)
 # YOLOv8l	640	    52.9	375.2	    2.39	    43.7	165.2
 # YOLOv8x	640	    53.9	479.1	    3.53	    68.2	257.8
 
-model = YOLO("runs/segment/train/weights/best.pt")
+model = YOLO("runs/segment/train8/weights/best.pt")
 #model = YOLO("yolov8s-seg.pt")
 
 track_history = defaultdict(lambda: [])

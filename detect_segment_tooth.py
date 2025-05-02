@@ -8,7 +8,7 @@ image_path = str(input('Envie o caminho da imagem: '))
 output_path = "images/dente_segmentado.png"
 
 # Carrega o modelo
-model = YOLO("runs/segment/train/weights/best.pt")
+model = YOLO("runs/segment/train6/weights/best.pt")
 
 # Carrega a imagem
 img = cv2.imread(image_path)

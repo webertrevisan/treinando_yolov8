@@ -1,0 +1,14 @@
+path: ./
+train: teeth/train
+val: teeth/train
+test: teeth/train/test
+
+nc: 3
+names: ['botom teech', 'tooth', 'top teech']
+
+roboflow:
+  workspace: weber-cy2ec
+  project: teeth-pydgz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weber-cy2ec/teeth-pydgz/dataset/1

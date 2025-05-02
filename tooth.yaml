@@ -6,17 +6,18 @@
 # └── datasets
 #     └── coco128  ← downloads here (7 MB)
 
+# "c:\users\bobgreen\documents\pythonscripts\python_envs\yolov5env\scripts\python.exe"  "C:\Users\BobGreen\Documents\PythonScripts\python_envs\yolov5env\Scripts\tensorboard.exe" --logdir runs\train_among
+
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ./  # dataset root dir
-train: tooth/train  # train images (relative to 'path') 128 images
-val: tooth/train  # val images (relative to 'path') 128 images
-#test:  # test images (optional)
+train: teeth/train # train images (relative to 'path') 128 images
+val: teeth/train # val images (relative to 'path') 128 images
+#test: ESCALIBUR/train # test images (optional)
 
 # Classes
 names:
-  0: Caries
-  1: Cavity
-  2: Crack
-  3: Tooth
+  0: 11
+  1: 12
+  2: 13
 
   # "c:\users\bobgreen\documents\pythonscripts\python_envs\yolov5env\scripts\python.exe"  "C:\Users\BobGreen\Documents\PythonScripts\python_envs\yolov5env\Scripts\tensorboard.exe" --logdir runs\train_among
